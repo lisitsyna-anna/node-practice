@@ -1,57 +1,71 @@
 .hero {
-	max-width: 1360px;
-	height: 647px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 209px;
-	padding-bottom: 284px;
+  max-width: 1360px;
+  height: 647px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 209px;
+  padding-bottom: 284px;
 
-	background-color: #000000;
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/src/images/hero-desktop.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
+  background-color: #000000;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('/src/images/hero-desktop.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 
-	&__title {
-		margin-bottom: 25px;
-		font-weight: 300;
-		font-size: 55px;
-		line-height: 1.2;
-		text-align: center;
-		color: var(--hero-text-color);
-	}
-	
-	&__bottom-text {
-		margin-bottom: 29px;
+  &__title {
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--hero-text-color);
+  }
 
-		font-weight: 400;
-		font-size: 22px;
-		line-height: 1.67;
-		text-align: center;
-		color: var(--hero-text-color);
-}
+  &__bottom-text {
+    margin-bottom: 29px;
 
-&__icon {
-	margin-right: 5px;
-}
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.67;
+    text-align: center;
+    color: var(--hero-text-color);
+  }
+
+  &__icon {
+    margin-right: 5px;
+  }
 }
 
 .hero .hero__link {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-	width: 165px;
-	height: 48px;
-	padding-left: 27px;
-	padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 165px;
+  height: 48px;
+  padding-left: 27px;
+  padding-right: 30px;
 
-	background: var(--accent-color);
-	border-radius: 5px;
-	
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.56;
-	color: var(--primery-bg-color);
+  background: var(--accent-color);
+  border-radius: 5px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--primery-bg-color);
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: green;
 }
